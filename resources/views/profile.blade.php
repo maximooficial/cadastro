@@ -7,7 +7,7 @@
                                 <div class="container rounded bg-white mt-5 mb-5">
     <div class="row">
         <div class="col-md-3 border-right">
-            <div class="d-flex flex-column align-items-center text-center p-3 py-2"><img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"><span class="font-weight-bold">{{auth()->user()->name}}</span><span class="text-black-50">{{auth()->user()->email}}</span><span></span><span class="text-black-50">{{auth()->user()->nascimento}} Anos</span><span>    <br />
+            <div class="d-flex flex-column align-items-center text-center p-3 py-2"><img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"><span class="font-weight-bold">{{auth()->user()->name}}</span><span class="text-black-50">{{auth()->user()->email}}</span><span></span><span class="text-black-50">{{auth()->user()->birthday}} Anos</span><span>    <br />
             <p>Status</p>
 <span class="label label-warning"><a href="#">{{auth()->user()->status}}</a></span>
 <br><br>
@@ -53,28 +53,28 @@
                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
   <div class="card-header">Valores Arrecadados</div>
   <div class="card-body">
-    <h5 class="card-title">TOTAL R${{auth()->user()->valor3+auth()->user()->valor1}}</h5>
+    <h5 class="card-title">TOTAL R${{auth()->user()->valor1+auth()->user()->valor3+auth()->user()->valor5}},00</h5>
     <p class="card-text">Valor Total que Você contribuiu</p>
   </div>
 </div>
 <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
   <div class="card-header">AGUA</div>
   <div class="card-body">
-    <h5 class="card-title">R${{auth()->user()->valor1}} </h5>
+    <h5 class="card-title">R${{auth()->user()->valor1}},00 </h5>
     <p class="card-text">Valor referente a agua recadado no dia {{auth()->user()->valor2}}</p>
   </div>
 </div>
 <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
   <div class="card-header">LUZ</div>
   <div class="card-body">
-    <h5 class="card-title">R${{auth()->user()->valor3}} </h5>
-    <p class="card-text">Valor referente a LUZ recadado no dia {{auth()->user()->valor4}}</p>
+    <h5 class="card-title">R${{auth()->user()->valor3}},00 </h5>
+    <p class="card-text">Valor referente a LUZ recadado no dia {{auth()->user()->valor4}},00</p>
   </div>
 </div>
 <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
   <div class="card-header">Advogado</div>
   <div class="card-body">
-    <h5 class="card-title">R${{auth()->user()->valor5}}</h5>
+    <h5 class="card-title">R${{auth()->user()->valor5}},00</h5>
     <p class="card-text">Valor referente ao Advogado recadado no dia {{auth()->user()->valor6}}</p>
   </div>
 </div>

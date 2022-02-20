@@ -80,9 +80,13 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background: url(/images/login.jpg) no-repeat center center fixed;
+  background-repeat: repeat;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
 }
 
 hr {
@@ -4513,6 +4517,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  opacity: 0.9
 }
 .card > hr {
   margin-right: 0;

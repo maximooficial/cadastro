@@ -248,8 +248,8 @@
                                         </div>
                                         <div class="dropdown-inner user-account-info">
                                             <h6 class="overline-title-alt">Valor Colaborado</h6>
-                                            <div class="user-balance">{{ Auth::user()->valor1 }} <small class="currency currency-usd">BRL</small></div>
-                                            <a href="#" class="link"><span>Valor total Arecadado </span> <em class="icon ni ni-wallet-out"></em></a>
+                                            <div class="user-balance"><small class="currency currency-usd">R$</small>{{ Auth::user()->valor1+Auth::user()->valor3+Auth::user()->valor5  }},00 </div>
+                                            <a href="/valores" class="link"><span>Valor total Arecadado </span> <em class="icon ni ni-wallet-out"></em></a>
                                         </div>
                                         <div class="dropdown-inner">
                                             <ul class="link-list">
@@ -259,7 +259,16 @@
                                         </div>
                                         <div class="dropdown-inner">
                                             <ul class="link-list">
-                                                <li><a href="{{ route('logout') }}"><em class="icon ni ni-signout"></em><span>Sair</span></a></li>
+                                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();"><em class="icon ni ni-signout"></em>
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+                               
                                             </ul>
                                         </div>
                                     </div>
