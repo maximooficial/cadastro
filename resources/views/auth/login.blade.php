@@ -12,7 +12,7 @@
                         @csrf
 
                         <div class="row mb-3">
-                            <label for="name" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
+                            <label for="name" class="col-md-4 col-form-label text-md-end">Digite seu Cpf</label>
 
                             <div class="col-md-6">
                                 <input id="cpf" type="cpf" class="form-control @error('cpf') is-invalid @enderror" name="cpf" value="{{ old('cpf') }}" required autocomplete="cpf" autofocus>

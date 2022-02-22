@@ -6,6 +6,8 @@ use App\Models\Profiles;
 use Illuminate\Http\Request;
 use App\Http\Requests\EditProfile;
 
+
+
 class ProfilesController extends Controller
 {
 public function index(){
@@ -40,5 +42,7 @@ $edit->update($request->all());
 return redirect()
 ->route('profile')
 ->with('message', 'Morando Deletado com Sucessso');}
+
+
 
 }
