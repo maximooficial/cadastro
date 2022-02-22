@@ -123,7 +123,7 @@
                                             <a href="/profile" class="nk-menu-link"><span class="nk-menu-text">Perfil</span></a>
                                         </li>  
                                         <li class="nk-menu-item">
-                                            <a href="/editprofile/{{auth()->user()->id}}" class="nk-menu-link"><span class="nk-menu-text">Editar Perfil</span><span class="nk-menu-badge badge-warning">New</span></a>
+                                            <a href="/editprofile/{{auth()->user()->id}}+hdlfdhiskdgikjh+{{auth()->user()->name}}" class="nk-menu-link"><span class="nk-menu-text">Editar Perfil</span><span class="nk-menu-badge badge-warning">New</span></a>
                                         </li>
                                     </ul><!-- .nk-menu-sub -->
                                 </li><!-- .nk-menu-item -->
@@ -254,7 +254,7 @@
                                         <div class="dropdown-inner">
                                             <ul class="link-list">
                                                 <li><a href="/profile"><em class="icon ni ni-user-alt"></em><span>Ver Perfil</span></a></li>
-                                                <li><a href="/editprofile"><em class="icon ni ni-setting-alt"></em><span>Configuração do Perfil</span></a></li>
+                                                <li><a href="/editprofile/{{auth()->user()->id}}+hdlfdhiskdgikjh"><em class="icon ni ni-setting-alt"></em><span>Configuração do Perfil</span></a></li>
                                             </ul>
                                         </div>
                                         <div class="dropdown-inner">

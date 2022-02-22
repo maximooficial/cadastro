@@ -61,7 +61,7 @@
 <div class="col-md-12"><label class="labels">Latitude & altidude</label><input type="text" name="geolocalizacao" class="form-control" placeholder="Geolocalização do Terreno" value="{{ $edit->geolocalizacao}}"></div>
 <div class="col-md-12"><label class="labels">Tamanho do Terreno</label><input type="text" name="terreno" class="form-control" placeholder="Tamanho Terreno" value="{{ $edit->terreno }}"></div>
 <div class="col-md-12"><label class="labels">Quadra</label><input type="text" name="quadra" class="form-control" placeholder="Quadra" value="{{ $edit->quadra }}"></div>
-<div class="col-md-12"><label class="labels">Senha</label><input type="text" name="password" class="form-control" placeholder="senha" value="{{ $edit->password }}" readonly></div>
+<div class="col-md-12"><label class="labels">Senha</label><input type="text" name="password" class="form-control" placeholder="senha" value="{{ $edit->password }}" ></div>
     </div>
     <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="submit">Save Profile</button></div>
         </div>

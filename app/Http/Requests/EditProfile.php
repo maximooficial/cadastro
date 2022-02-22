@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Requests;
+use Illuminate\Support\Facades\Hash;
 
 use Illuminate\Foundation\Http\FormRequest;
 
@@ -25,11 +26,12 @@ class EditProfile extends FormRequest
     {
         return [ 
         
-            'name' => 'required|min:3|max:40',
+            'name' => 'required|min:5|max:40',
             'cpf' => 'required|min:11|max:15',
-            'email' => 'required|min:11|max:30',
+            'email' => 'required|min:5|max:40',
             'password' => 'required|min:6|max:256',
             'birthday' => 'required|min:5|max:15',   
+
    
             '_token'  => 'required|min:2|max:256'   ];
     }
