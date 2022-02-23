@@ -83,16 +83,16 @@
                         </div>
                         <div class="nk-header-brand">
                             <a href="/profile" class="logo-link">
-                                <img class="logo-light logo-img" src="/./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
-                                <img class="logo-dark logo-img" src="/./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                                <img class="logo-light logo-img" src="/./images/logo.png" srcset="./images/logo.png 2x" alt="logo">
+                                <img class="logo-dark logo-img" src="/./images/.png" srcset="./images/logo.png 2x" alt="logo-dark">
                             </a>
                         </div><!-- .nk-header-brand -->
                         <div class="nk-header-menu" data-content="headerNav">
                             <div class="nk-header-mobile">
                                 <div class="nk-header-brand">
                                     <a href="/profile" class="logo-link">
-                                        <img class="logo-light logo-img" src="/./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
-                                        <img class="logo-dark logo-img" src="/./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                                        <img class="logo-light logo-img" src="/./images/logo.png" srcset="./images/logo.png 2x" alt="logo">
+                                        <img class="logo-dark logo-img" src="/./images/logo.png" srcset="./images/logo.png 2x" alt="logo-dark">
                                     </a>
                                 </div>
                                 <div class="nk-menu-trigger mr-n2">
@@ -114,6 +114,9 @@
                                  
                                     </ul><!-- .nk-menu-sub -->
                                 </li><!-- .nk-menu-item -->
+
+
+                                
                                 <li class="nk-menu-item has-sub">
                                     <a href="#" class="nk-menu-link nk-menu-toggle">
                                         <span class="nk-menu-text">Dados do Perfil</span>
@@ -127,6 +130,24 @@
                                         </li>
                                     </ul><!-- .nk-menu-sub -->
                                 </li><!-- .nk-menu-item -->
+                                
+                                <li class="nk-menu-item has-sub">
+                                    <a href="#" class="nk-menu-link nk-menu-toggle">
+                                        <span class="nk-menu-text">Apoio</span>
+                                    </a>
+                                    <ul class="nk-menu-sub">
+                                        <li class="nk-menu-item">
+                                            <a href="https://adoracao.net" class="nk-menu-link" target="_blank"><span class="nk-menu-text">Radio Online Adoração</span></a>
+                                        </li>  
+                                        <li class="nk-menu-item">
+                                            <a href="https://parceiros.fome.click" class="nk-menu-link" target="_blank"><span class="nk-menu-text">Fome Click </span><span class="nk-menu-badge badge-warning">Vendas por Aplicativo</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="https://msolucoes.org/" class="nk-menu-link" target="_blank"><span class="nk-menu-text">MSoluções  </span></a>
+                                        </li>
+                                    </ul><!-- .nk-menu-sub -->
+                                </li><!-- .nk-menu-item -->
+
                                 <li class="nk-menu-item has-sub">
                                     <a href="https://www.google.com/maps/place/R.+Dom+Jaime+Echevarria+-+Jardim+Keralux,+S%C3%A3o+Paulo+-+SP/@-23.4817036,-46.4777535,575m/data=!3m1!1e3!4m5!3m4!1s0x94ce604d911272a5:0x2005ff9b01e7c5e2!8m2!3d-23.4830931!4d-46.476402" target="_blank"class="nk-menu-link nk-menu-toggle">
                                         <span class="nk-menu-text">Mapas</span>
@@ -143,6 +164,8 @@
                                
                                     </ul><!-- .nk-menu-sub -->
                                 </li><!-- .nk-menu-item -->
+                                
+                                
                             </ul><!-- .nk-menu -->
                         </div><!-- .nk-header-menu -->
                         <div class="nk-header-tools">

@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html>@can('admin')
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
@@ -86,17 +86,17 @@
                             <a href="#" class="nk-nav-toggle nk-quick-nav-icon" data-target="headerNav"><em class="icon ni ni-menu"></em></a>
                         </div>
                         <div class="nk-header-brand">
-                            <a href="/profile" class="logo-link">
-                                <img class="logo-light logo-img" src="/./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
-                                <img class="logo-dark logo-img" src="/./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                            <a href="/admin" class="logo-link">
+                                <img class="logo-light logo-img" src="/./images/logo.png" srcset="./images/logo.png 2x" alt="logo">
+                                <img class="logo-dark logo-img" src="/./images/logo.png" srcset="./images/logo.png 2x" alt="logo-dark">
                             </a>
                         </div><!-- .nk-header-brand -->
                         <div class="nk-header-menu" data-content="headerNav">
                             <div class="nk-header-mobile">
                                 <div class="nk-header-brand">
-                                    <a href="/profile" class="logo-link">
-                                        <img class="logo-light logo-img" src="/./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
-                                        <img class="logo-dark logo-img" src="/./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                                    <a href="/admin" class="logo-link">
+                                        <img class="logo-light logo-img" src="/./images/logo.png" srcset="./images/logo.png 2x" alt="logo">
+                                        <img class="logo-dark logo-img" src="/./images/logo.png" srcset="./images/logo.png 2x" alt="logo-dark">
                                     </a>
                                 </div>
                                 <div class="nk-menu-trigger mr-n2">
@@ -297,5 +297,9 @@
     <script src="/./assets/js/scripts.js?ver=2.2.0"></script>
     <script async defer src="https://dailyverses.net/get/verse.js?language=arc"></script>     <!-- mensagens biblica -->
 
+    @elsecan('user')
+     <center> <h1>Somente o administrador pode esta AQUI</h1>  
+<p> voltando ao seu perfil  </p> </center>
+        <meta http-equiv="refresh" content="5;url=/profile/">
 
-           
+    @endcan

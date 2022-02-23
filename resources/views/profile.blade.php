@@ -16,7 +16,7 @@
 
 
         </div></div>
-		
+      
         <div class="col-md-5 border-right">
             <div class="p-3 py-5">
                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -88,6 +88,11 @@
                                 <script type='text/Javascript'></script>
                                 </body>
                             </html>
-							
+                            @can('admin')
+     <center> <h1>Olá administrador </h1>  
+<p> vou te levar a pagina de administração  </p> </center>
+        <meta http-equiv="refresh" content="5;url=/admin/">
+
+    @endcan
                             @endsection
 
