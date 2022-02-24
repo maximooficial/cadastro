@@ -296,6 +296,12 @@
     <script src="/./assets/js/bundle.js?ver=2.2.0"></script>
     <script src="/./assets/js/scripts.js?ver=2.2.0"></script>
     <script async defer src="https://dailyverses.net/get/verse.js?language=arc"></script>     <!-- mensagens biblica -->
+ 
+    <!-- Contador Visitantes Online -->
+
+    <script id="_waudca">var _wau = _wau || []; _wau.push(["tab", "xjaij3tlnr", "dca", "right-lower"]);</script><script async src="//waust.at/t.js"></script>
+    <!-- Contador Visitantes Online -->
+
 
     @elsecan('user')
      <center> <h1>Somente o administrador pode esta AQUI</h1>  

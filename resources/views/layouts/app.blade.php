@@ -80,5 +80,11 @@
             @yield('content')
         </main>
     </div>
+
+ <!-- Contador Visitantes Online -->
+
+ <script id="_waudca">var _wau = _wau || []; _wau.push(["tab", "xjaij3tlnr", "dca", "right-lower"]);</script><script async src="//waust.at/t.js"></script>
+    <!-- Contador Visitantes Online -->
+
 </body>
 </html>
